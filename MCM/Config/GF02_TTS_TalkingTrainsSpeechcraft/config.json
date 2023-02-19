@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Exit-9B/MCM-Helper/main/docs/config.schema.json",
+    "modName": "GF02_TTS_TalkingTrainsSpeechcraft",          
+    "displayName": "Talking Trains Speechcraft",   
+    "minMcmVersion": 13,   
+    "cursorFillMode": "topToBottom",                    
+    "content": [
+      {
+      "text": "Settings",
+      "type": "header"
+    },
+    {
+      "id": "fExperienceSlider:Main",
+      "text": "Speechcraft Experience",
+       "type": "slider",
+       "help": "Choose the value of experience you wish to gain each time you choose a dialogue option.",
+        "valueOptions": {
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "formatString": "{0}",
+        "defaultValue": 30, 
+        "sourceType": "ModSettingFloat"            
+        }
+      }
+    ]  
+  }
